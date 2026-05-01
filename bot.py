@@ -15,7 +15,7 @@ from flask import Flask, request
 load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 WEBHOOK_PATH = "/webhook"
-WEBHOOK_URL = os.getenv("WEBHOOK_URL")
+WEBHOOK_URL = https://assignment-8-ziyoda.onrender.com
 PORT = int(os.getenv("PORT", "5000"))
 
 if not BOT_TOKEN:
